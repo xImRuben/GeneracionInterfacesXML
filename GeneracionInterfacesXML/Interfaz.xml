@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Formulario>
+	<Control
+        Tipo="Label"
+        Nombre="lblBienvenida"
+        Texto="Bienvenido a la aplicación"
+        PosicionX="20"
+        PosicionY="30"
+        Ancho="250"
+        Alto="20"
+        ForeColor="DarkBlue"
+        FontStyle="Bold"
+    />
+
+	<Control
+        Tipo="Panel"
+        Nombre="pnlBotones"
+        Texto="Panel de Acciones"
+        PosicionX="15"
+        PosicionY="70"
+        Ancho="450"
+        Alto="50"
+        BackColor="LightGray"
+    >
+		<Control
+            Tipo="Button"
+            Nombre="btnAnadir"
+            Texto="Añadir"
+            PosicionX="5"
+            PosicionY="10"
+            Ancho="140"
+            Alto="30"
+            BackColor="Green"
+            ForeColor="White"
+        />
+
+		<Control
+            Tipo="Button"
+            Nombre="btnEditar"
+            Texto="Editar"
+            PosicionX="155"
+            PosicionY="10"
+            Ancho="140"
+            Alto="30"
+            BackColor="Orange"
+            ForeColor="White"
+        />
+
+		<Control
+            Tipo="Button"
+            Nombre="btnEliminar"
+            Texto="Eliminar"
+            PosicionX="305"
+            PosicionY="10"
+            Ancho="140"
+            Alto="30"
+            BackColor="Red"
+            ForeColor="White"
+        />
+	</Control>
+
+	<Control
+        Tipo="DataGridView"
+        Nombre="dgvUsuarios"
+        PosicionX="15"
+        PosicionY="140"
+        Ancho="470"
+        Alto="200"
+    />
+</Formulario>
